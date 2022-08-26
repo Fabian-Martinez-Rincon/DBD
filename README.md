@@ -1,4 +1,4 @@
-![](/Img/1.jpg)
+<p><img width="250" align='right' src="Img/1.png"></p>
 
 ## 📚 Teoria
 
