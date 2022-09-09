@@ -102,11 +102,40 @@ Se debe modelar la información necesaria para la gestión de un colegio de la c
 
 #### Parte 2 Modelo Fisico
 
+Para cada ejercicio plantear el correspondiente pasaje al modelo lógico y al modelo físico. Convenciones para el modelo físico:
+
+- Subrayar con una línea las claves primarias.
+- Denotar como fk a las claves externas.
+- Denotar atributos opcionales con el signo de interrogación (p. ej., b3?)
+
 ### Ejercicio 1 Fisico
+
+![](/Img/0.png)
+
 ### Ejercicio 2 Fisico
+
+![](/Img/1.png)
+
 ### Ejercicio 3 Fisico
+
+![](/Img/2.png)
+
 ### Ejercicio 4 Fisico
+
+![](/Img/3.png)
+
 ### Ejercicio 5 Fisico
+
+![](/Img/4.png)
+
 ### Ejercicio 6 Fisico
+
+![](/Img/5.png)
+
 ### Ejercicio 7 Fisico
+
+![](/Img/6.png)
+
 ### Ejercicio 8 Fisico
+
+![](/Img/7.PNG)
