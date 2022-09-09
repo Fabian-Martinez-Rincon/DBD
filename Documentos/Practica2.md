@@ -138,4 +138,4 @@ Para cada ejercicio plantear el correspondiente pasaje al modelo lógico y al mo
 
 ### Ejercicio 8 Fisico
 
-![](/Img/7.PNG)
+![](/Img/7.png)
