@@ -1,6 +1,6 @@
 <h1 align="center"> 💿 Diseño de Base de Datos</h1>
 
-<p><img width="250" align='right' src="https://media.giphy.com/media/l44QqRIKSOlsx0EHC/giphy.gif"></p>
+<p><img width="250" align='right' src="https://media.giphy.com/media/5SzCNbcYNPSWngBJlx/giphy.gif"></p>
 
 - [Condiciones de aprobación](/Documentos/condiciones.md)
 - [Modelo conceptual](#modelo-conceptual)
