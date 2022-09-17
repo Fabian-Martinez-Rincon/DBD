@@ -84,7 +84,26 @@ Me indica el nivel de correspondencia que hay entre las dos entidades que une la
 La cardinalidad minima, me indica que puede inscribirse a como minimo a 0 cursadas y como maximo N, es lo mismo de ambos lados.
 
 - Toda relacion tiene cardinalidad.
-<p><img align='right'   src="./Img/Diagramas/CardinalidadesRelaciones.png"></p>
+<p><img align='right'  src="./Img/Diagramas/CardinalidadesRelaciones.png"></p>
 
 ### Identificador compuesto
+
+<p><img align='right' width="300" src="https://user-images.githubusercontent.com/55964635/190878428-1451518b-a901-46f5-85d2-5901a9cde948.png"></p>
+
+Los identificadores compuestos, estan formados por varios atributos simples.
+
+- La fecha y hora, puede repetirse en distintos examen
+- Mi DNI puede repetirse en varios examenes
+- Pero lo que no se puede repetir son los dos anteriores a la vez
+
+
 ### Identificador externo
+- Para tener un atributo identificador externo, si o si, las dos entidades tienen que estar relacionadas
+- Para que una entidad, pueda ser identificada, tiene que ser una entidad devil (tener cardinalidad 1,1)
+
+<p><img  width="500" src="https://user-images.githubusercontent.com/55964635/190878612-4c773e60-ad9f-4c10-89f2-7c6c917147ed.png"></p>
+
+
+En este caso, me indica que copia, va a ser identificado con el nro de copia , mas el identificador que me traigo de libro (que seria ISBN). 
+Por lo tanto, copia va a ser identificado con nro de copia + ISBN. \
+De esto puedo deducir que nro de copia se puede repetir para distintos libros pero este + el ISBN no.
