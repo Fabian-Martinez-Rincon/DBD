@@ -37,11 +37,13 @@ Relacion que une dos entidades particulares del mismo conjunto. En este caso, ma
 
 ### Atributo
 
-<p><img align='right'   src="./Img/Diagramas/Atributo.png"></p>
+<p><img align='right' width="200"   src="./Img/Diagramas/Atributo.png"></p>
 
 Un atributo representa una propiedad basica de una entidad o relacion. Un atributo es equivalente a un campo de un registro
 
 ### Atributo compuesto
+Un atributo compuesto representa a un atributo generado a partir de una combinaci
+
 ### Identificador
 ### Cardinalidades en los atributos
 ### Cardinalidades en las relaciones
