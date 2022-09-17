@@ -14,6 +14,7 @@
   - [Cardinalidades en las relaciones](#cardinalidades-en-las-relaciones)
   - [Identificador compuesto](#identificador-compuesto)
   - [Identificador externo](#identificador-externo)
+  - [Gerarquias de generalizacion]()
 
 
 # Modelo conceptual
@@ -60,9 +61,9 @@ Un identificador es un atributo o un conjunto de atributos que permite reconocer
 
 ### Cardinalidades en los atributos
 
-Los atributos, tienen asociado el concepto de cardinalidad. Cuando se define un atributo se debe indicar si es o no obligatorio y si puede tomar mas de un valor (Polivalente). En el primer parametro tenes la cardinalidad minima, y en segundo, tenes la cardinalidad maxima.
+Los atributos, tienen asociado el concepto de cardinalidad. Cuando se define un atributo se debe indicar si es o no obligatorio y si puede tomar mas de un valor (Polivalente). En el primer parametro tenes la cardinalidad minima, y en segundo, tenes la cardinalidad maxima. 
 
-<p><img align='right' width="200"   src="./Img/Diagramas/Atributo.png"></p>
+<p><img align='right'   src="./Img/Diagramas/Atributo.png"></p>
 
 - **Cardinalidad (1,1)** Monovalente obligatior. La cardinalidad existe y esta presenta, pero solamente en este caso no se debe indicar en forma explicita.
 
@@ -107,3 +108,24 @@ Los identificadores compuestos, estan formados por varios atributos simples.
 En este caso, me indica que copia, va a ser identificado con el nro de copia , mas el identificador que me traigo de libro (que seria ISBN). 
 Por lo tanto, copia va a ser identificado con nro de copia + ISBN. \
 De esto puedo deducir que nro de copia se puede repetir para distintos libros pero este + el ISBN no.
+
+## Gerarquias
+
+### Generalizacion
+Cuando tenemos entidades que tienen caracteristicas y propiedades comunes, podemos crear una entidad padre que junte las caracteristicas comunes, y a partir de esa entidad padre, podemos generar varias entidades hijas. Cada atributo hijo puede tener sus propios atributos/relaciones.
+
+![image](https://user-images.githubusercontent.com/55964635/190879035-413ecd9d-bd98-4648-86aa-19476997e1b9.png)
+- El primer parametro (T o P) lo que me esta indicando en el caso de que sea total es que no existe una persona que no sea (alumno, docente o graduado). 
+- Si fuera parcial, lo que me esta indicando, es lo contrario, que la suma de los elementos de los hijos, no necesariamente dan la totalidad de los elementos del padre. Podrian haber personas que no sean (alumnos, docentes o graduados).
+- Segundo parametro (S o P), si es exclusiva, significa que los elementos en los hijos nunca se van a superponer, en este caso una persona es (o un alumno, o un docente, o un graduado, nunca una persona, puede ser las dos a la vez)
+- Que sea superpuesta, es lo contrario, una persona puede ser alumno, docente y graduado a la vez
+
+
+Coberturas
+- (T, E) Total Esclusiva
+- (T, S) Total SuperPuesta
+- (P, E) Parcial Esclusiva
+- (P, S) Parcial SuperPuesta
+
+
+### Subconjuntos  
