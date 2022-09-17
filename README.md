@@ -79,5 +79,12 @@ Los atributos, tienen asociado el concepto de cardinalidad. Cuando se define un 
 - **Cardinalidad (1, N)** Polivalente Obligatorio
 
 ### Cardinalidades en las relaciones
+Me indica el nivel de correspondencia que hay entre las dos entidades que une la relacion. Se debe definir el nivel minimo de correspondencia (cardinalidad minima), y el nivel maximo de correspondecia (cardinalidad maxima)
+
+La cardinalidad minima, me indica que puede inscribirse a como minimo a 0 cursadas y como maximo N, es lo mismo de ambos lados.
+
+- Toda relacion tiene cardinalidad.
+<p><img align='right'   src="./Img/Diagramas/CardinalidadesRelaciones.png"></p>
+
 ### Identificador compuesto
 ### Identificador externo
