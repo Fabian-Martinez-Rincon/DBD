@@ -36,7 +36,10 @@ Relacion que une dos entidades particulares del mismo conjunto. En este caso, ma
 <p><img width="400"  src="./Img/Diagramas/Recursiva.png"></p>
 
 ### Atributo
-<p><img width="400"  src="./Img/Diagramas/Atributo.png"></p>
+
+<p><img align='right'   src="./Img/Diagramas/Atributo.png"></p>
+
+Un atributo representa una propiedad basica de una entidad o relacion. Un atributo es equivalente a un campo de un registro
 
 ### Atributo compuesto
 ### Identificador
