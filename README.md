@@ -51,12 +51,21 @@ Un atributo compuesto representa a un atributo generado a partir de una combinac
 <br>
 
 ### Identificador
-<p><img align='right' width="200"   src="./Img/Diagramas/identificador.png"></p>
+<p><img align='right' width="200"   src="./Img/Diagramas/Identificador.png"></p>
 
-
-Un identificador es un atributo o un conjunto de atributos que permite reconocer o distinguir a una entidad de matenar univoca dentro del conjunto de entidades.
+Un identificador es un atributo o un conjunto de atributos que permite reconocer o distinguir a una entidad de matenar univoca dentro del conjunto de entidades. 
+- Tota entidad tiene un atributo identificador 
+- Los atributos identificadores son unicamente atributos de entidades.
+- Si yo encuentro un valor en mi entidad cuyo valor es unico, si o si, estoy obligado a marcarlo como atributo identificador
 
 ### Cardinalidades en los atributos
+
+Los atributos, tienen asociado el concepto de cardinalidad. Cuando se define un atributo se debe indicar si es o no obligatorio y si puede tomar mas de un valor (Polivalente)
+
+<p><img align='right' width="200"   src="./Img/Diagramas/Atributo.png"></p>
+
+- **Cardinalidad (1,1)** Monovalente obligatior. La cardinalidad existe y esta presenta, pero solamente en este caso no se debe indicar en forma explicita.
+
 ### Cardinalidades en las relaciones
 ### Identificador compuesto
 ### Identificador externo
