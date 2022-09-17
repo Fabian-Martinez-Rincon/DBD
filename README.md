@@ -31,7 +31,13 @@ Nos representan las dependencias que tenemos entre dos o mas entidades, si una r
 <p><img src="./Img/Diagramas/Relacion.png"></p>
 
 ### Relación reculsiva
+Relacion que une dos entidades particulares del mismo conjunto. En este caso, materias esta relacionada con si misma. Por ejemplo R1 = 'es correlativa de', estariamos diciendo que una materia es correlativa de otra materia.
+
+<p><img width="400"  src="./Img/Diagramas/Recursiva.png"></p>
+
 ### Atributo
+<p><img width="400"  src="./Img/Diagramas/Atributo.png"></p>
+
 ### Atributo compuesto
 ### Identificador
 ### Cardinalidades en los atributos
