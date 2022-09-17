@@ -47,7 +47,15 @@ Un atributo representa una propiedad basica de una entidad o relacion. Un atribu
 
 Un atributo compuesto representa a un atributo generado a partir de una combinacion de varios atributos simples 
 
+<br>
+<br>
+
 ### Identificador
+<p><img align='right' width="200"   src="./Img/Diagramas/identificador.png"></p>
+
+
+Un identificador es un atributo o un conjunto de atributos que permite reconocer o distinguir a una entidad de matenar univoca dentro del conjunto de entidades.
+
 ### Cardinalidades en los atributos
 ### Cardinalidades en las relaciones
 ### Identificador compuesto
