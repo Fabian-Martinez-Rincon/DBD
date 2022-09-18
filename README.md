@@ -311,13 +311,24 @@ Si paso el identificador de `B` hacia `A` en algunos casos puedo llegar a tener 
 
 <img  src="./Img/Fisico/2.PNG">
 
-- `A` = (`idB`, idA (fk), atB)
-- `B` = (`idB`, itA)
+- `B` = (`idB`, idA (fk), atB)
+- `A` = (`idA`, itA)
 - `at` = atributo simple
 - `fk:` es la clave que yo utilizo para relacionarme con la entidad en mi modelo logico.
 
 ### Ejemplo 2 (1, 1) a (1, 1)
+
+En este caso tengo `A` relacionado con `B` y tengo relacionado 1 a 1 de ambos lados. Es este caso, es indistinto, pasar el identificador del lado de `A` o pasar el identificador del lado de `B`
+
 <img  src="./Img/Fisico/3.PNG">
+
+- `B` = (`idB`, idA (fk), atB)
+- `A` = (`idA`, itA)
+
+O tambien podria ser
+
+- `B` = (`idB`, atB)
+- `A` = (`idA`, idB(fk), itA)
 
 ### Ejemplo 3 (0, 1) a (0, 1)
 <img  src="./Img/Fisico/4.PNG">
