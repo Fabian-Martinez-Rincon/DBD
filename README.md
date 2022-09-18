@@ -25,6 +25,13 @@
 - [Modelo Fisico](#modelo-fisico)
   - [Conversion de Entidades](#conversion-de-entidades)
   - [Conversion de Relaciones](#conversion-de-relaciones)
+    - [Ejemplo 1 (0, 1) a (1, 1)](#ejemplo-1-0-1-a-1-1)
+    - [Ejemplo 2 (1, 1) a (1, 1)](#ejemplo-2-1-1-a-1-1)
+    - [Ejemplo 3 (0, 1) a (0, 1)](#ejemplo-3-0-1-a-0-1)
+    - [Ejemplo 4 (1, 1) a (0/1, N)](#ejemplo-4-1-1-a-01-n)
+    - [Ejemplo 5 (0, 1) a (0/1, N)](#ejemplo-5-0-1-a-01-n)
+    - [Ejemplo 6 (0/1, N) a (0/1, N)](#ejemplo-6-01-n-a-01-n)
+
 
 # Modelo conceptual
 ## Entidad
@@ -296,19 +303,27 @@ Analizar las cardinalidades de mi relacion.
 - Una relacion puede o no ser una tabla.
 - Que la relacion sea una tabla o no, depende de la cardinalidad de la relacion.
 
-### Ejemplo 1
-
-
+### Ejemplo 1 (0, 1) a (1, 1)
 
 <img  src="./Img/Fisico/2.PNG">
 
 - `B` = (idB, idA, (fk), atB)
 - `C` = ()
 
+### Ejemplo 2 (1, 1) a (1, 1)
 <img  src="./Img/Fisico/3.PNG">
 
+### Ejemplo 3 (0, 1) a (0, 1)
 <img  src="./Img/Fisico/4.PNG">
+
+### Ejemplo 4 (1, 1) a (0/1, N)
 <img  src="./Img/Fisico/5.PNG">
+
+### Ejemplo 5 (0, 1) a (0/1, N)
 <img  src="./Img/Fisico/6.PNG">
+
+### Ejemplo 6 (0/1, N) a (0/1, N)
 <img  src="./Img/Fisico/7.PNG">
-<img  src="./Img/Fisico/8.PNG">
+
+### Ejemplo 7
+<img width="500" src="./Img/Fisico/8.PNG">
