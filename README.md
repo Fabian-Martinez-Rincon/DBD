@@ -305,10 +305,16 @@ Analizar las cardinalidades de mi relacion.
 
 ### Ejemplo 1 (0, 1) a (1, 1)
 
+Cuando tenemos esta cardinalidad, la relacion no se convierte en tabla. Ahora tengo que mantener la relacion entre `A` y `B` y no perder informacion. Lo que hago es pasar el identificador de `A` hacia `B`. Pasamos el identificador de `A` porque este, tiene cardinalidad minima cero. Y puede no estar relacionada. En caso contrario de `B` que si esta relacionada.
+
+Si paso el identificador de `B` hacia `A` en algunos casos puedo llegar a tener un identificador nulo.
+
 <img  src="./Img/Fisico/2.PNG">
 
-- `B` = (idB, idA, (fk), atB)
-- `C` = ()
+- `A` = (`idB`, idA (fk), atB)
+- `B` = (`idB`, itA)
+- `at` = atributo simple
+- `fk:` es la clave que yo utilizo para relacionarme con la entidad en mi modelo logico.
 
 ### Ejemplo 2 (1, 1) a (1, 1)
 <img  src="./Img/Fisico/3.PNG">
