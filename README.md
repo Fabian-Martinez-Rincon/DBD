@@ -25,23 +25,28 @@
 
 Es un elemento u objeto del mundo real que queremos representar. Partimos de un problema/dominio, este va a tener distintos elementos/objetos a representar y los representamos en el modelo conceptual a partir de una entidad.
 
+---
+
 ### Relación
 
 Nos representan las dependencias que tenemos entre dos o mas entidades, si una relacion une dos entidades, hablamos de una relacion binaria. Si une tres entidades, hablamos de una relacion ternaria y asi sucesivamente. El nombre descriptivo en la relacion **R1** no es una buena practica ya que podemos representar distintas dependencias con una misma relación (y genera ambigüedad)
 
 <p><img src="./Img/Diagramas/Relacion.png"></p>
 
+---
 ### Relación reculsiva
 Relacion que une dos entidades particulares del mismo conjunto. En este caso, materias esta relacionada con si misma. Por ejemplo R1 = 'es correlativa de', estariamos diciendo que una materia es correlativa de otra materia.
 
 <p><img width="400"  src="./Img/Diagramas/Recursiva.png"></p>
 
+---
 ### Atributo
 
 <p><img align='right' width="200"   src="./Img/Diagramas/Atributo.png"></p>
 
 Un atributo representa una propiedad basica de una entidad o relacion. Un atributo es equivalente a un campo de un registro
 
+---
 ### Atributo compuesto
 
 <p><img align='right' width="300"   src="./Img/Diagramas/Atributo Compuesto.png"></p>
@@ -51,6 +56,8 @@ Un atributo compuesto representa a un atributo generado a partir de una combinac
 <br>
 <br>
 
+---
+
 ### Identificador
 <p><img align='right' width="200"   src="./Img/Diagramas/Identificador.png"></p>
 
@@ -59,11 +66,12 @@ Un identificador es un atributo o un conjunto de atributos que permite reconocer
 - Los atributos identificadores son unicamente atributos de entidades.
 - Si yo encuentro un valor en mi entidad cuyo valor es unico, si o si, estoy obligado a marcarlo como atributo identificador
 
+---
 ### Cardinalidades en los atributos
 
 Los atributos, tienen asociado el concepto de cardinalidad. Cuando se define un atributo se debe indicar si es o no obligatorio y si puede tomar mas de un valor (Polivalente). En el primer parametro tenes la cardinalidad minima, y en segundo, tenes la cardinalidad maxima. 
 
-<p><img align='right'   src="./Img/Diagramas/Atributo.png"></p>
+<p><img align='right' width="200"  src="./Img/Diagramas/Atributo.png"></p>
 
 - **Cardinalidad (1,1)** Monovalente obligatior. La cardinalidad existe y esta presenta, pero solamente en este caso no se debe indicar en forma explicita.
 
@@ -79,13 +87,16 @@ Los atributos, tienen asociado el concepto de cardinalidad. Cuando se define un 
 
 - **Cardinalidad (1, N)** Polivalente Obligatorio
 
+---
 ### Cardinalidades en las relaciones
 Me indica el nivel de correspondencia que hay entre las dos entidades que une la relacion. Se debe definir el nivel minimo de correspondencia (cardinalidad minima), y el nivel maximo de correspondecia (cardinalidad maxima)
 
 La cardinalidad minima, me indica que puede inscribirse a como minimo a 0 cursadas y como maximo N, es lo mismo de ambos lados.
 
 - Toda relacion tiene cardinalidad.
-<p><img align='right'  src="./Img/Diagramas/CardinalidadesRelaciones.png"></p>
+<p><img  src="./Img/Diagramas/CardinalidadesRelaciones.png"></p>
+
+---
 
 ### Identificador compuesto
 
@@ -97,7 +108,7 @@ Los identificadores compuestos, estan formados por varios atributos simples.
 - Mi DNI puede repetirse en varios examenes
 - Pero lo que no se puede repetir son los dos anteriores a la vez
 
-
+---
 ### Identificador externo
 - Para tener un atributo identificador externo, si o si, las dos entidades tienen que estar relacionadas
 - Para que una entidad, pueda ser identificada, tiene que ser una entidad devil (tener cardinalidad 1,1)
@@ -109,6 +120,7 @@ En este caso, me indica que copia, va a ser identificado con el nro de copia , m
 Por lo tanto, copia va a ser identificado con nro de copia + ISBN. \
 De esto puedo deducir que nro de copia se puede repetir para distintos libros pero este + el ISBN no.
 
+---
 ## Gerarquias
 
 ### Generalizacion
@@ -127,5 +139,6 @@ Coberturas
 - (P, E) Parcial Esclusiva
 - (P, S) Parcial SuperPuesta
 
-
+---
 ### Subconjuntos  
+Caso especial de las jerarquias de generalizacion, donde se tiene una generalizacion de la que se desprende solamente una especializacion. No es necesario indicar la cobertura para los subconjuntos.
