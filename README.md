@@ -164,7 +164,7 @@ Caso especial de las jerarquias de generalizacion, donde se tiene una generaliza
 </tr>
 
  <tr>
-<td> <img  width="300" src="./Img/Logico/1.png"> </td> <td><img  width="390" src="./Img/Logico/Conversion.png"></td>
+<td> <img  width="340" src="./Img/Logico/1.png"> </td> <td><img  width="390" src="./Img/Logico/Conversion.PNG"></td>
 </tr>
  
 </table>
