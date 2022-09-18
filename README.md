@@ -226,7 +226,26 @@ En las siguientes tres, no puedo eliminar al padre, tengo las otras dos posibili
 --- 
 
 
-
-
 ## Resolver Atributos compuestos
+
+Para resolver los atributos compuestos, tengo dos formas.
+- Todos los atributos simples que conforman el atributo compuesto, bajan a la entidad
+- O dejo un unico atributo que me deje un atributo simple
+- Cual es la mejor opcion? Todo depende del dominio que este modelando, si yo estoy modelando un dominio cuya direccion sea un campo que es muchas veces consultado, no me conviene modelarlo todo en un atributo, porque en direccion, voy a tener que separar los datos (ya que estan todos en un atributo) y esa tarea es demasiado pesada para lo que necesitamos. En cambio si lo resolvemos como atributos individuales, tengo todos los datos mas a mano, sin necesitad de procesar nada de informacion extra.
+
+<table >
+<tr>
+<td>  <div align="center">Sólo los atributos individuales
+</div> </td> <td> <div align="center" >Todo en un solo atributo</div> </td>
+</tr>
+
+ <tr>
+<td> <img  width="400" src="./Img/Logico/4.PNG">
+
+
+ </td> <td><img  width="400" src="./Img/Logico/5.PNG"></td>
+</tr>
+ 
+</table>
+
 ## Resolver Atributos Polivalentes
