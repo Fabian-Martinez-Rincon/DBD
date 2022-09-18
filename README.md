@@ -179,7 +179,7 @@ En las siguientes tres, no puedo eliminar al padre, tengo las otras dos posibili
 </tr>
 
  <tr>
-<td> <img  width="340" src="./Img/Logico/1.png"> </td> <td><img  width="390" src="./Img/Logico/Conversion.PNG"></td>
+<td> <img  width="400" src="./Img/Logico/1.png"> </td> <td><img  width="400" src="./Img/Logico/Conversion.PNG"></td>
 </tr>
  
 </table>
@@ -200,7 +200,7 @@ En las siguientes tres, no puedo eliminar al padre, tengo las otras dos posibili
 </tr>
 
  <tr>
-<td> <img  width="340" src="./Img/Logico/1.png"> </td> <td><img  width="390" src="./Img/Logico/2.PNG"></td>
+<td> <img  width="400" src="./Img/Logico/1.png"> </td> <td><img  width="400" src="./Img/Logico/2.PNG"></td>
 </tr>
  
 </table>
@@ -218,7 +218,7 @@ En las siguientes tres, no puedo eliminar al padre, tengo las otras dos posibili
 </tr>
 
  <tr>
-<td> <img  width="340" src="./Img/Logico/1.png"> </td> <td><img  width="390" src="./Img/Logico/3.PNG"></td>
+<td> <img  width="400" src="./Img/Logico/1.png"> </td> <td><img  width="900" src="./Img/Logico/3.PNG"></td>
 </tr>
  
 </table>
