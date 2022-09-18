@@ -14,11 +14,14 @@
   - [Cardinalidades en las relaciones](#cardinalidades-en-las-relaciones)
   - [Identificador compuesto](#identificador-compuesto)
   - [Identificador externo](#identificador-externo)
-  - [Gerarquias de generalizacion]()
-
+  - [Gerarquias de generalizacion](#gerarquias)
+- [Modelo Logico](#modelo-logico)
+  - [Resolver las Jerarquias]()
+  - [Resolver Atributos compuestos]()
+  - [Resolver Atributos Polivalentes]()
 
 # Modelo conceptual
-### Entidad
+## Entidad
 
 
 <p><img width="200" align='right' src="./Img/Diagramas/Entidad.png"></p>
@@ -27,27 +30,27 @@ Es un elemento u objeto del mundo real que queremos representar. Partimos de un 
 
 ---
 
-### Relación
+## Relación
 
 Nos representan las dependencias que tenemos entre dos o mas entidades, si una relacion une dos entidades, hablamos de una relacion binaria. Si une tres entidades, hablamos de una relacion ternaria y asi sucesivamente. El nombre descriptivo en la relacion **R1** no es una buena practica ya que podemos representar distintas dependencias con una misma relación (y genera ambigüedad)
 
 <p><img src="./Img/Diagramas/Relacion.png"></p>
 
 ---
-### Relación reculsiva
+## Relación reculsiva
 Relacion que une dos entidades particulares del mismo conjunto. En este caso, materias esta relacionada con si misma. Por ejemplo R1 = 'es correlativa de', estariamos diciendo que una materia es correlativa de otra materia.
 
 <p><img width="400"  src="./Img/Diagramas/Recursiva.png"></p>
 
 ---
-### Atributo
+## Atributo
 
 <p><img align='right' width="200"   src="./Img/Diagramas/Atributo.png"></p>
 
 Un atributo representa una propiedad basica de una entidad o relacion. Un atributo es equivalente a un campo de un registro
 
 ---
-### Atributo compuesto
+## Atributo compuesto
 
 <p><img align='right' width="300"   src="./Img/Diagramas/Atributo Compuesto.png"></p>
 
@@ -58,7 +61,7 @@ Un atributo compuesto representa a un atributo generado a partir de una combinac
 
 ---
 
-### Identificador
+## Identificador
 <p><img align='right' width="200"   src="./Img/Diagramas/Identificador.png"></p>
 
 Un identificador es un atributo o un conjunto de atributos que permite reconocer o distinguir a una entidad de matenar univoca dentro del conjunto de entidades. 
@@ -67,7 +70,7 @@ Un identificador es un atributo o un conjunto de atributos que permite reconocer
 - Si yo encuentro un valor en mi entidad cuyo valor es unico, si o si, estoy obligado a marcarlo como atributo identificador
 
 ---
-### Cardinalidades en los atributos
+## Cardinalidades en los atributos
 
 Los atributos, tienen asociado el concepto de cardinalidad. Cuando se define un atributo se debe indicar si es o no obligatorio y si puede tomar mas de un valor (Polivalente). En el primer parametro tenes la cardinalidad minima, y en segundo, tenes la cardinalidad maxima. 
 
@@ -88,7 +91,7 @@ Los atributos, tienen asociado el concepto de cardinalidad. Cuando se define un 
 - **Cardinalidad (1, N)** Polivalente Obligatorio
 
 ---
-### Cardinalidades en las relaciones
+## Cardinalidades en las relaciones
 Me indica el nivel de correspondencia que hay entre las dos entidades que une la relacion. Se debe definir el nivel minimo de correspondencia (cardinalidad minima), y el nivel maximo de correspondecia (cardinalidad maxima)
 
 La cardinalidad minima, me indica que puede inscribirse a como minimo a 0 cursadas y como maximo N, es lo mismo de ambos lados.
@@ -98,7 +101,7 @@ La cardinalidad minima, me indica que puede inscribirse a como minimo a 0 cursad
 
 ---
 
-### Identificador compuesto
+## Identificador compuesto
 
 <p><img align='right' width="300" src="https://user-images.githubusercontent.com/55964635/190878428-1451518b-a901-46f5-85d2-5901a9cde948.png"></p>
 
@@ -109,7 +112,7 @@ Los identificadores compuestos, estan formados por varios atributos simples.
 - Pero lo que no se puede repetir son los dos anteriores a la vez
 
 ---
-### Identificador externo
+## Identificador externo
 - Para tener un atributo identificador externo, si o si, las dos entidades tienen que estar relacionadas
 - Para que una entidad, pueda ser identificada, tiene que ser una entidad devil (tener cardinalidad 1,1)
 
@@ -123,7 +126,7 @@ De esto puedo deducir que nro de copia se puede repetir para distintos libros pe
 ---
 ## Gerarquias
 
-### Generalizacion
+## Generalizacion
 Cuando tenemos entidades que tienen caracteristicas y propiedades comunes, podemos crear una entidad padre que junte las caracteristicas comunes, y a partir de esa entidad padre, podemos generar varias entidades hijas. Cada atributo hijo puede tener sus propios atributos/relaciones.
 
 ![image](https://user-images.githubusercontent.com/55964635/190879035-413ecd9d-bd98-4648-86aa-19476997e1b9.png)
@@ -140,5 +143,15 @@ Coberturas
 - (P, S) Parcial SuperPuesta
 
 ---
-### Subconjuntos  
+## Subconjuntos  
 Caso especial de las jerarquias de generalizacion, donde se tiene una generalizacion de la que se desprende solamente una especializacion. No es necesario indicar la cobertura para los subconjuntos.
+
+
+---
+
+
+# Modelo Logico
+
+## Resolver las Jerarquias
+## Resolver Atributos compuestos
+## Resolver Atributos Polivalentes
