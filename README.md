@@ -251,8 +251,12 @@ Para resolver los atributos compuestos, tengo dos formas.
 
 ## Resolver Atributos Polivalentes
 
+Para resolver los atributos polivalentes se debe agregar una entidad y una interaccion.
+
+- Siempre conviene poner cardinalidad (0, n) de ambos lados, (podria poner cardinalidad (1, 1) y que sea una entidad devil en funcion del dominio que tengo que resolver, si hacemos esto, vamos a tener que usar un identificar exteno)
+
 <table align = 'center'>
-<tr><td><img  src="./Img/Logico/6.PNG"></td></tr>
+<tr><td><img width="300" src="./Img/Logico/6.PNG"></td></tr>
 
  <tr>
  <td>
