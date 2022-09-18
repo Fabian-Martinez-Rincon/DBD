@@ -312,18 +312,19 @@ Si paso el identificador de `B` hacia `A` en algunos casos puedo llegar a tener 
 <img  src="./Img/Fisico/2.PNG">
 
 - `B` = (`idB`, idA (fk), atB)
-- `A` = (`idA`, itA)
+- `A` = (`idA`, atA)
 - `at` = atributo simple
 - `fk:` es la clave que yo utilizo para relacionarme con la entidad en mi modelo logico.
 
 ### Ejemplo 2 (1, 1) a (1, 1)
 
+- La relacion no se convierte en tabla
 En este caso tengo `A` relacionado con `B` y tengo relacionado 1 a 1 de ambos lados. Es este caso, es indistinto, pasar el identificador del lado de `A` o pasar el identificador del lado de `B`
 
 <img  src="./Img/Fisico/3.PNG">
 
 - `B` = (`idB`, idA (fk), atB)
-- `A` = (`idA`, itA)
+- `A` = (`idA`, atA)
 
 O tambien podria ser
 
@@ -331,16 +332,57 @@ O tambien podria ser
 - `A` = (`idA`, idB(fk), itA)
 
 ### Ejemplo 3 (0, 1) a (0, 1)
+
+Nada me asegura, ni que `A` este relacianda con `B` ni que `B` este relaciando con `A`. Esto quiere decir, que pasar un identificador para cualquiera de los lados para mantener las relaciones, ya no me sirve.
+
+
 <img  src="./Img/Fisico/4.PNG">
 
+En este caso, estoy obligado a convertir la relacion en tabla.
+
+- `B` = (`idB`, atB)
+- `A` = (`idA`, atA)
+- `R` = (`idA`, idB)  o  `R` = (idA, `idB`) Estos dos datos, van a tomar valores cuando ambos esten relacionadas
+
 ### Ejemplo 4 (1, 1) a (0/1, N)
+
+Lo que se hace aca es pasar siempre el identificador de la cardinalidad que tiene maxima `N`, pasar el identificador hacia la entidad que tiene cardinalidad (1, 1)
+
+- Esto me asegura de que el identificador de B toma un unico valor, porque `A` esta relacionado solo una vez con `B`
+
 <img  src="./Img/Fisico/5.PNG">
 
+- `A` = (`idA`, idB(fk), atA)
+- `B` = (`idB`, atB)
+
+
+- Que pasa cuando en una entidad tengo mas de un atributo identificador? Cuando paso esos identificadores a tablas, eso se llama clave candidata, en este caso, tenemos que elegir solo un atributo identificador.
+
+
 ### Ejemplo 5 (0, 1) a (0/1, N)
+
+En este caso, estoy obligado a que la relacion se comvierta a tabla, porque no importa que identificador quiera pasar, siempre voy a tener perdida de informacion, ya que en la primera cardinalidad, puede tomar valor cero y lo mismo pasa para la otra entidad.
+
 <img  src="./Img/Fisico/6.PNG">
 
+Cuando mi relacion se convierte en tabla, se lleva los atributos identificadores de las dos entidades que relaciona.
+
+- Por que la clave primaria de la tabla va a ser id de A y no de B? Porque la id de A no se va a repetir. Porque en nuestra relacion, a lo suma un A, se relaciona con un B, esto me esta indicando que no se va a repetir.
+- `A` = (`idA`, atA)
+- `B` = (`idB`, atB)
+- `R` = (`idA`, idB)
+
 ### Ejemplo 6 (0/1, N) a (0/1, N)
+Si o si en este caso, la relacion siempre es tabla. 
+Cuando tenemos una relacion N a N, la relacion se convierte en tabla, se lleva los identificadores como todas las relaciones. Pero ambas, son claves primarias, porque yo me aseguro de que lo que no se va a repetir en mi relacion es idA + idB conjuntamente (Los dos valores juntos no se van a repetir)
+
 <img  src="./Img/Fisico/7.PNG">
+
+- `A` = (`idA`)
+- `B` = (`idB`, atB)
+- `R` = (`idA`,`idB`, atR)
+
+
 
 ### Ejemplo 7
 <img width="500" src="./Img/Fisico/8.PNG">
