@@ -158,6 +158,13 @@ Caso especial de las jerarquias de generalizacion, donde se tiene una generaliza
 
 **Dejo todas las entidades.**
 
+- Usualmente cuando dejamos todas las entidades, aparecen las relaciones **esUn**
+- Recordar que no podemos tener nombres repetidos ni de entidades, ni de relaciones. (Por eso el **esUn1**)
+- Tengo que mirar si los hijos tienen identificador propio, si el hijo tiene, no estoy obligado a bajar el identificador del padre. Pero si el hijo, no posee identifificador propio, estoy obligado a bajar el identificador del padre, tal y como se muestra en la imagen.
+- 
+
+
+
 <table >
 <tr>
 <td>  <div align="center">Conceptual</div> </td> <td> <div align="center" >Logico</div> </td>
