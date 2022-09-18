@@ -22,6 +22,9 @@
     - [Dejar solo a los hijos](#dejar-solo-a-los-hijosesta-opcion-solo-la-puedo-cuando-tengo-t-e)
   - [Resolver Atributos compuestos](#resolver-atributos-compuestos)
   - [Resolver Atributos Polivalentes](#resolver-atributos-polivalentes)
+- [Modelo Fisico](#modelo-fisico)
+  - [Conversion de Entidades](#conversion-de-entidades)
+  - [Conversion de Relaciones](#conversion-de-relaciones)
 
 # Modelo conceptual
 ## Entidad
@@ -265,3 +268,10 @@ Para resolver los atributos polivalentes se debe agregar una entidad y una inter
 </tr>
  
 </table>
+
+---
+
+# Modelo Fisico
+
+## Conversion de entidades
+## Conversion de relaciones
