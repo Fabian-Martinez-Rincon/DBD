@@ -274,4 +274,19 @@ Para resolver los atributos polivalentes se debe agregar una entidad y una inter
 # Modelo Fisico
 
 ## Conversion de entidades
+Tota entidad de mi modelo logico termina siendo una tabla 
+
+
+
+<table align = 'center'>
+ <tr>
+ <td>
+<img  width="300" src="./Img/Fisico/1.PNG">
+
+**Alumno** = (`dni`, nombres, calle, nro, piso?, dpto?)
+</td>
+</tr>
+ 
+</table>
+
 ## Conversion de relaciones
