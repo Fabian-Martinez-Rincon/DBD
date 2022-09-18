@@ -276,17 +276,39 @@ Para resolver los atributos polivalentes se debe agregar una entidad y una inter
 ## Conversion de entidades
 Tota entidad de mi modelo logico termina siendo una tabla 
 
-
-
 <table align = 'center'>
  <tr>
  <td>
 <img  width="300" src="./Img/Fisico/1.PNG">
 
-**Alumno** = (`dni`, nombres, calle, nro, piso?, dpto?)
+
 </td>
 </tr>
  
 </table>
 
+**Alumno** = (`dni`, nombres, calle, nro, piso?, dpto?)
+
 ## Conversion de relaciones
+
+Analizar las cardinalidades de mi relacion.
+
+- Una relacion puede o no ser una tabla.
+- Que la relacion sea una tabla o no, depende de la cardinalidad de la relacion.
+
+### Ejemplo 1
+
+
+
+<img  src="./Img/Fisico/2.PNG">
+
+- `B` = (idB, idA, (fk), atB)
+- `C` = ()
+
+<img  src="./Img/Fisico/3.PNG">
+
+<img  src="./Img/Fisico/4.PNG">
+<img  src="./Img/Fisico/5.PNG">
+<img  src="./Img/Fisico/6.PNG">
+<img  src="./Img/Fisico/7.PNG">
+<img  src="./Img/Fisico/8.PNG">
