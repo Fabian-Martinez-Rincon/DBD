@@ -153,5 +153,29 @@ Caso especial de las jerarquias de generalizacion, donde se tiene una generaliza
 # Modelo Logico
 
 ## Resolver las Jerarquias
+- **Total Exclusiva (T, E):** Tengo tres posibilidades, dejar los padres y los hijos (dejar todo), dejar solo los hijos eliminando al padre o dejar solo al padre, eliminando a los hijos.
+
+
+**Dejo todas las entidades.**
+
+<table >
+<tr>
+<td>  <div align="center">Conceptual</div> </td> <td> <div align="center" >Logico</div> </td>
+</tr>
+
+ <tr>
+<td> <img  width="300" src="./Img/Logico/1.png"> </td> <td><img  width="390" src="./Img/Logico/Conversion.png"></td>
+</tr>
+ 
+</table>
+
+
+
+En las siguientes tres, no puedo eliminar al padre, tengo las otras dos posibilidades, no puedo dejar solo a los hijos eliminando al padre.
+- **Total Superpuesta (T, S):** 
+- **Parcial Exclusiva (P, E):** 
+- **Parcial Superpuesta (P, S):** 
+
+
 ## Resolver Atributos compuestos
 ## Resolver Atributos Polivalentes
