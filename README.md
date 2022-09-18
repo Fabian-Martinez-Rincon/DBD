@@ -232,6 +232,7 @@ Para resolver los atributos compuestos, tengo dos formas.
 - Todos los atributos simples que conforman el atributo compuesto, bajan a la entidad
 - O dejo un unico atributo que me deje un atributo simple
 - Cual es la mejor opcion? Todo depende del dominio que este modelando, si yo estoy modelando un dominio cuya direccion sea un campo que es muchas veces consultado, no me conviene modelarlo todo en un atributo, porque en direccion, voy a tener que separar los datos (ya que estan todos en un atributo) y esa tarea es demasiado pesada para lo que necesitamos. En cambio si lo resolvemos como atributos individuales, tengo todos los datos mas a mano, sin necesitad de procesar nada de informacion extra.
+- Si estoy modelando un dominio cuya direccion es solo un dato mas, puedo ponerlo todo en un solo atributo
 
 <table >
 <tr>
@@ -249,3 +250,14 @@ Para resolver los atributos compuestos, tengo dos formas.
 </table>
 
 ## Resolver Atributos Polivalentes
+
+<table align = 'center'>
+<tr><td><img  src="./Img/Logico/6.PNG"></td></tr>
+
+ <tr>
+ <td>
+<img  width="700" src="./Img/Logico/7.PNG">
+</td>
+</tr>
+ 
+</table>
