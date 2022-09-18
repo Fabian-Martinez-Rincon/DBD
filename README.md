@@ -16,9 +16,9 @@
   - [Identificador externo](#identificador-externo)
   - [Gerarquias de generalizacion](#gerarquias)
 - [Modelo Logico](#modelo-logico)
-  - [Resolver las Jerarquias]()
-  - [Resolver Atributos compuestos]()
-  - [Resolver Atributos Polivalentes]()
+  - [Resolver las Jerarquias](#resolver-las-jerarquias)
+  - [Resolver Atributos compuestos](#resolver-atributos-compuestos)
+  - [Resolver Atributos Polivalentes](#resolver-atributos-polivalentes)
 
 # Modelo conceptual
 ## Entidad
@@ -161,7 +161,7 @@ Caso especial de las jerarquias de generalizacion, donde se tiene una generaliza
 - Usualmente cuando dejamos todas las entidades, aparecen las relaciones **esUn**
 - Recordar que no podemos tener nombres repetidos ni de entidades, ni de relaciones. (Por eso el **esUn1**)
 - Tengo que mirar si los hijos tienen identificador propio, si el hijo tiene, no estoy obligado a bajar el identificador del padre. Pero si el hijo, no posee identifificador propio, estoy obligado a bajar el identificador del padre, tal y como se muestra en la imagen.
-- 
+- **La cardinalidad de las relaciones:** del lado del padre, siempre va a tener **(0, 1)** y del lado del hijo, siempre va a ser **(1, 1)**
 
 
 
@@ -176,6 +176,22 @@ Caso especial de las jerarquias de generalizacion, donde se tiene una generaliza
  
 </table>
 
+
+---
+
+
+**Dejar solo al padre**
+
+<table >
+<tr>
+<td>  <div align="center">Conceptual</div> </td> <td> <div align="center" >Logico</div> </td>
+</tr>
+
+ <tr>
+<td> <img  width="340" src="./Img/Logico/1.png"> </td> <td><img  width="390" src="./Img/Logico/2.png"></td>
+</tr>
+ 
+</table>
 
 
 En las siguientes tres, no puedo eliminar al padre, tengo las otras dos posibilidades, no puedo dejar solo a los hijos eliminando al padre.
