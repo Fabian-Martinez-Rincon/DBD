@@ -17,6 +17,9 @@
   - [Gerarquias de generalizacion](#gerarquias)
 - [Modelo Logico](#modelo-logico)
   - [Resolver las Jerarquias](#resolver-las-jerarquias)
+    - [Dejar Todas las entidades](#dejo-todas-las-entidades)
+    - [Dejar solo al Padre](#dejar-solo-al-padre)
+    - [Dejar solo a los hijos](#dejar-solo-a-los-hijosesta-opcion-solo-la-puedo-cuando-tengo-t-e)
   - [Resolver Atributos compuestos](#resolver-atributos-compuestos)
   - [Resolver Atributos Polivalentes](#resolver-atributos-polivalentes)
 
@@ -155,8 +158,13 @@ Caso especial de las jerarquias de generalizacion, donde se tiene una generaliza
 ## Resolver las Jerarquias
 - **Total Exclusiva (T, E):** Tengo tres posibilidades, dejar los padres y los hijos (dejar todo), dejar solo los hijos eliminando al padre o dejar solo al padre, eliminando a los hijos.
 
+En las siguientes tres, no puedo eliminar al padre, tengo las otras dos posibilidades, no puedo dejar solo a los hijos eliminando al padre.
+- **Total Superpuesta (T, S):** 
+- **Parcial Exclusiva (P, E):** 
+- **Parcial Superpuesta (P, S):** 
 
-**Dejo todas las entidades.**
+
+### **Dejo todas las entidades.**
 
 - Usualmente cuando dejamos todas las entidades, aparecen las relaciones **esUn**
 - Recordar que no podemos tener nombres repetidos ni de entidades, ni de relaciones. (Por eso el **esUn1**)
@@ -180,7 +188,11 @@ Caso especial de las jerarquias de generalizacion, donde se tiene una generaliza
 ---
 
 
-**Dejar solo al padre**
+### **Dejar solo al padre**
+
+- Si dejo solo al padre, los atributos de los hijos tendran que pasar al padre (porque sino perderia esa informacion)
+- **Que pasa cuando paso los atributos de los hijos al padre?** Esos atributos se vuelven opcionales. 
+- Los identificadores, pasan a ser atributos opcionales
 
 <table >
 <tr>
@@ -188,16 +200,32 @@ Caso especial de las jerarquias de generalizacion, donde se tiene una generaliza
 </tr>
 
  <tr>
-<td> <img  width="340" src="./Img/Logico/1.png"> </td> <td><img  width="390" src="./Img/Logico/2.png"></td>
+<td> <img  width="340" src="./Img/Logico/1.png"> </td> <td><img  width="390" src="./Img/Logico/2.PNG"></td>
 </tr>
  
 </table>
 
 
-En las siguientes tres, no puedo eliminar al padre, tengo las otras dos posibilidades, no puedo dejar solo a los hijos eliminando al padre.
-- **Total Superpuesta (T, S):** 
-- **Parcial Exclusiva (P, E):** 
-- **Parcial Superpuesta (P, S):** 
+--- 
+
+### **Dejar solo a los hijos(Esta opcion solo la puedo cuando tengo (T, E))**
+
+- Los atributos del padre bajan a los hijos
+
+<table >
+<tr>
+<td>  <div align="center">Conceptual</div> </td> <td> <div align="center" >Logico</div> </td>
+</tr>
+
+ <tr>
+<td> <img  width="340" src="./Img/Logico/1.png"> </td> <td><img  width="390" src="./Img/Logico/3.PNG"></td>
+</tr>
+ 
+</table>
+
+--- 
+
+
 
 
 ## Resolver Atributos compuestos
