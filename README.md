@@ -382,7 +382,13 @@ Cuando tenemos una relacion N a N, la relacion se convierte en tabla, se lleva l
 - `B` = (`idB`, atB)
 - `R` = (`idA`,`idB`, atR)
 
+En caso de que ambos ids se repitan estando juntas, vamos a tener que marcar a atR para poder identificar a R
 
 
-### Ejemplo 7
+### Ejemplo 7 Recursivas
+
+Las relaciones recursivas se manejas de igual forma que una relacion binaria, solo que se llama a si misma
+
 <img width="500" src="./Img/Fisico/8.PNG">
+
+- **R12 =** (Codigo Materia, Codigo Materias Correlativa) Como no puedo tener dos atributos con el mismo nombre, lo que hago es renombrar
