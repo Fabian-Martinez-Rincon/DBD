@@ -37,7 +37,7 @@
   - [Unión T1 ∪ T2](#unión)
   - [Intersección T1 ∩ T2](#intersección)
   - [Producto cartesiano T1 × T2](#producto-cartesiano)
-  - [Producto natural T1 |×| T2](#producto-natural)
+  - [Producto natural T1 \|×\| T2](#producto-natural)
   - [Diferencia T1 – T2](#diferencia)
   - [División T1 % T2](#división)
   - [Renombre ρT (Table)](#renombre)
