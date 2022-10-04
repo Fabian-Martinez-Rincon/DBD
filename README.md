@@ -31,6 +31,17 @@
     - [Ejemplo 4 (1, 1) a (0/1, N)](#ejemplo-4-1-1-a-01-n)
     - [Ejemplo 5 (0, 1) a (0/1, N)](#ejemplo-5-0-1-a-01-n)
     - [Ejemplo 6 (0/1, N) a (0/1, N)](#ejemplo-6-01-n-a-01-n)
+- [Algebra Relacional](#algebra-relacional)
+  - [Selección σp (T) ](#selección)
+  - [Proyección πa1, … an (T)](#proyección)
+  - [Unión T1 ∪ T2](#unión)
+  - [Intersección T1 ∩ T2](#intersección)
+  - [Producto cartesiano T1 × T2](#producto-cartesiano)
+  - [Producto natural T1 |×| T2](#producto-natural)
+  - [Diferencia T1 – T2](#diferencia)
+  - [División T1 % T2](#división)
+  - [Renombre ρT (Table)](#renombre)
+  - [Asignación Α ⇐ Consulta](#asignación)
 
 
 # Modelo conceptual
@@ -392,3 +403,18 @@ Las relaciones recursivas se manejas de igual forma que una relacion binaria, so
 <img width="500" src="./Img/Fisico/8.PNG">
 
 - **R12 =** (Codigo Materia, Codigo Materias Correlativa) Como no puedo tener dos atributos con el mismo nombre, lo que hago es renombrar
+
+---
+
+# Algebra Relacional
+
+## Selección
+## Proyección
+## Unión
+## Intersección
+## Producto cartesiano
+## Producto natural
+## Diferencia
+## División
+## Renombre
+## Asignación
