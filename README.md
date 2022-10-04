@@ -409,12 +409,30 @@ Las relaciones recursivas se manejas de igual forma que una relacion binaria, so
 # Algebra Relacional
 
 ## Selección
+<p><img src="./Img/Practica 3/1.png"></p>
+
 ## Proyección
+<p><img src="./Img/Practica 3/2.png"></p>
+
 ## Unión
+<p><img src="./Img/Practica 3/3.png"></p>
+
 ## Intersección
+<p><img src="./Img/Practica 3/4.png"></p>
+
 ## Producto cartesiano
+<p><img src="./Img/Practica 3/5.png"></p>
+
 ## Producto natural
+<p><img src="./Img/Practica 3/6.png"></p>
+
 ## Diferencia
+<p><img src="./Img/Practica 3/7.png"></p>
+
 ## División
+<p><img src="./Img/Practica 3/8.png"></p>
+
 ## Renombre
+<p><img src="./Img/Practica 3/1.png"></p>
+
 ## Asignación
