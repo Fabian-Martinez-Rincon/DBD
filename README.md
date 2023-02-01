@@ -1,8 +1,9 @@
-<p><img width="250" align='center' src=""></p>
+<div align="center">
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Nomadiix/DBD)
 [![GitHub stars](https://img.shields.io/github/stars/Nomadiix/DBD)](https://github.com/FabianMartinez1234567/DBD/stargazers/)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/Nomadiix/DBD)](https://github.com/Nomadiix/DBD)
+ </div>
 
 <h1 align="center"> 💿 Diseño de Base de Datos </h1>
 <div align="center">
