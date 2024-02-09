@@ -39,18 +39,56 @@
 
 Las funciones de agregación en una consulta
 
-- [ ] a) 
-- [ ] b) 
-- [ ] c) 
-- [ ] d) 
-- [ ] e) 
-- [ ] f) 
-- [ ] g) 
-- [ ] h) 
-
-
+- [ ] a) Pueden ir en el SELECT
+- [ ] b) Pueden ir en el WHERE
+- [ ] c) Pueden ir en el HAVING
+- [ ] d) Pueden aparecer sin otros atributos en el select
+- [ ] e) Todas son correctas
+- [ ] f) A, C y D son correctas
+- [ ] g) A, B y C son correctas
+- [ ] h) A y C son correctas
 
 <details><summary>👀 Respuesta</summary>
 
+- Falta responder
 
 </details>
+
+---
+
+Un checkPoint en hambientes concurrentes
+
+- [ ] a) Solo se genera si se utiliza el protocolo de HDE
+- [ ] b) Solo se genera si se utiliza el protocolo de dos fases
+- [ ] c) Se aplica en el protocolo de doble paginación
+- [ ] d) Se coloca siempre entre dos transacciones, cuando ninguna esta activa
+- [ ] e) Todas las anteriores
+- [ ] f) Algunas de las anteriores
+- [ ] g) Ninguna de las anteriores
+
+<details><summary>👀 Respuesta</summary>
+
+- Falta responder
+
+</details>
+
+---
+
+
+La propiedad de aislamiento
+
+- [ ] a) No se aplica en un ambiente concurrente
+- [ ] b) Se aplica en un ambiente concurrente
+- [ ] c) No se aplica en un ambiente monousuario
+- [ ] d) Se aplica en un ambiente monousuario
+- [ ] e) Algunas de las anteriores
+- [ ] f) Ninguna de las anteriores
+
+<details><summary>👀 Respuesta</summary>
+
+- Falta responder
+
+</details>
+
+---
+
