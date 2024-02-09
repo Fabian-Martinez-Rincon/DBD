@@ -92,3 +92,147 @@ La propiedad de aislamiento
 
 ---
 
+Se tiene una jerarquia total exclusiva en el modelo conceptual. Al pasar dicho modelo al logico se debe decidir que hacer con la misma
+
+- [ ] a) Se puede dejar solo al padre
+- [ ] b) Se puede dejar solo a los hijos
+- [ ] c) Se puede dejar todas las entidades
+- [ ] d) Todas las anteriores son validas
+- [ ] e) Algunas de las anteriores son validas
+- [ ] f) No tengo datos suficientes para responder
+
+<details><summary>👀 Respuesta</summary>
+
+> [!IMPORTANT]
+> En la foto de donde lo saque estaba corregida
+
+- Todas las anteriores son validas
+
+</details>
+
+---
+
+Una dependencia multivaluada
+
+- [ ] a) Puede generar repetición innecesaria de información
+- [ ] b) Genera repetición de información si no es una dependencia multivaluada trivial
+- [ ] c) Genera repetición innecesaria de información
+- [ ] d) Todas las anteriores son correctas
+- [ ] e) Algunas de las anteriores son correctas  
+- [ ] f) Ninguna de las anteriores es correcta
+
+<details><summary>👀 Respuesta</summary>
+
+- Falta responder
+
+</details>
+
+---
+
+Un esquema fisico que no tiene dependencias parciales esta en:
+
+- [ ] a) 3FN
+- [ ] b) 5FN
+- [ ] c) 2FN
+- [ ] d) 1FN
+- [ ] e) 4FN
+- [ ] f) BCNF
+- [ ] g) Todas las anteriores
+- [ ] h) Algunas de las anteriores
+- [ ] i) Ninguna de las anteriores
+
+<details><summary>👀 Respuesta</summary>
+
+- Falta responder
+
+</details>
+
+---
+
+Suponga que tiene tablas
+
+- Alumnos = (idAlumno, nombre, edad)
+- Materias = (idMateria, nombre, año)
+- Inscribe = (idAlumno, idMateria)
+
+Indique cual sentencia AR muestra al alumno con las materias en las que se inscribió.
+
+Como referencia
+
+P proyeccción, S selección, I Intersección, R renombre
+
+
+- [ ] a) Pnombre (alumnos |x| materias |x| inscribe)
+- [ ] b) Pnombre (alumnos) |x| Pnombre (materias)
+- [ ] c) Pnombre (alumnos) |x| Pnombre (materias) |x| inscribe
+- [ ] d) Palumnos.nombre, materias.nombre (alumnos |x| materias)
+- [ ] e) Ninguna de las anteriores
+
+<details><summary>👀 Respuesta</summary>
+
+> [!IMPORTANT]
+> En la foto de donde lo saque estaba corregida
+
+- Ninguna de las anteriores
+
+</details>
+
+---
+
+La siguiente consulta SQL: SELECT * FROM B INNER JOIN A ON (A.id = B.id)
+
+- [ ] a) Retorna solo las filas de A que tengan coincidencia con las filas de B en el atributo id.
+- [ ] b) Retorna solo las filas de B que no tengan coincidencia con las filas de A en el atributo id.
+- [ ] c) Proyecta solo las columnas de A
+- [ ] d) Retorna todas las filas de B
+- [ ] e) Proyecta solo las columnas de B
+- [ ] f) Hay más de una respuesta correcta
+- [ ] g) Todas las anteriores son correctas
+- [ ] h) Ninguna de las anteriores es correcta
+
+<details><summary>👀 Respuesta</summary>
+
+- Falta responder
+
+</details>
+
+---
+
+La función de agregación SUM de SQL:
+
+- [ ] a) Requiere de una cláusula GROUP BY.
+- [ ] b) Calcula el máximo para una columna de la tabla.
+- [ ] c) Cuenta los valores distintos para una fila de la tabla
+- [ ] d) Se puede utilizar en la clausula HAVING sin utilizar un GROUP BY
+- [ ] e) Hay más de una opcion válida 
+- [ ] f) Todas las anteriores son correctas
+- [ ] g) Ninguna de las anteriores es correcta
+
+<details><summary>👀 Respuesta</summary>
+
+- Falta responder
+
+</details>
+
+---
+
+La operación de proyección en Álgebra Relacional:
+
+- [ ] a) Es un operador binario
+- [ ] b) Es un operador unitario
+- [ ] c) Es equivalente a la clausula "Where" de SQL
+- [ ] d) Es equivalente a la clausula "Order By" de SQL
+- [ ] e) Puede proyectar elementos repetidos
+- [ ] f) Hay más de una opción valida
+- [ ] g) Todas las opciones anteriores son válidas
+- [ ] h) Ninguna de las opciones anteriores es válida
+
+<details><summary>👀 Respuesta</summary>
+
+- Falta responder
+
+</details>
+
+---
+
+Si una entrada en el registro bitácora tiene el siguiente formato: "\<T1, dato, valor anterior, valor nuevo>"
