@@ -29,11 +29,12 @@
 
 ## Temario de Preguntas
 
-- [Diagramas Conceptuales](#archivos)
+- [Modelado](#modelado)
 - [Consultas](#consultas)
+- [Seguridad e Integridad de los Datos]()
 
 > [!TIP]
-> La strat del final este es responder 7/10 preguntas, porque tenes margen para errarle en 2 preguntas :D
+> Responder todo, ya fuee
 
 ---
 
@@ -1126,3 +1127,121 @@ Una clave candidata en una tabla del modelo físico
 ---
 
 ![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/b751577b-60e9-48d5-a8d6-b9a9eb7b13da)
+
+
+---
+
+## Preguntas del ostin
+
+Los profes dijeron que solo estudiemos de las preguntas con fotos
+
+---
+
+Cuál de las siguientes afirmaciones es cierta acerca de la normalización de base de datos?
+
+- [ ] a) La normalización es el proceso de agregar redundancia a una base de datos para mejorar la eficiencia en las consultas
+- [ ] b) La normalización es el proceso de eliminar la redundancia en una base de datos para evitar problemas de inconsistencia de datos.
+- [ ] c) La normalización es el proceso de crear copias de seguridad de una base de datos para protegerla de pérdidas de datos.
+- [ ] d) La normalización es el proceso de cifrar los datos en una base de datos para proteger su confidencialidad.
+- [ ] e) Todas las opciones anteriores son verdaderas.
+- [ ] f) Algunas de las opciones anteriores son verdaderas.
+- [ ] g) Ninguna de las opciones anteriores es verdadera.
+
+<details><summary>👀 Respuesta</summary>
+
+- b) La normalización es el proceso de eliminar la redundancia en una base de datos para evitar problemas de inconsistencia de datos.
+
+</details>
+
+---
+
+¿Cuál de las siguientes afirmaciones es verdadera sobre el modelo Entidad-Relación (ER)?
+
+- [ ] a) El modelo ER es un modelo lógico que se enfoca en la implementación física de la base de datos.
+- [ ] b) Las entidades en el modelo ER representan relaciones entre los datos.
+- [ ] c) Las relaciones en un modelo ER representan vínculos entre las entidades.
+- [ ] d) El modelo ER no incluye atributos para las entidades y relaciones.
+- [ ] e) Todas las opciones anteriores son verdaderas.
+- [ ] f) Algunas de las opciones anteriores son verdaderas.
+- [ ] g) Ninguna de las opciones anteriores es verdadera.
+
+<details><summary>👀 Respuesta</summary>
+
+- c) Las relaciones en un modelo ER representan vínculos entre las entidades.
+
+</details>
+
+---
+
+¿Cuál de las siguientes técnicas es útil para optimizar consultas SQL en una base de datos?
+
+- [ ] a) Usar subconsultas en lugar de productos de tablas.
+- [ ] b) Evitar el uso de índices para las claves primarias.
+- [ ] c) Usar funciones de agregación en lugar de GROUP BY.
+- [ ] d) Usar el operador LIKE en lugar de igualdad para comparaciones de cadenas.
+- [ ] e) Todas las opciones anteriores son verdaderas.
+- [ ] f) Algunas de las opciones anteriores son verdaderas.
+- [ ] g) Ninguna de las opciones anteriores es verdadera.
+
+<details><summary>👀 Respuesta</summary>
+
+- Lo unico que sabemos es que NINGUNA esta puesta como mal en el parcial, alguna tiene que ser
+
+</details>
+
+---
+
+¿Cuál de las siguientes afirmaciones es verdadera sobre el modelo lógico relacional?
+
+- [ ] a) Se pueden tener atributos compuestos.
+- [ ] b) Se pueden tener atributos derivados.
+- [ ] c) No se pueden tener identificadores compuestos.
+- [ ] d) Se pueden tener atributos polivalentes.
+- [ ] e) Todas las opciones anteriores son verdaderas.
+- [ ] f) Algunas de las opciones anteriores son verdaderas.
+- [ ] g) Ninguna de las opciones anteriores es verdadera.
+
+<details><summary>👀 Respuesta</summary>
+
+- Se pueden tener atributos derivados
+
+</details>
+
+---
+
+¿Cuál de las siguientes afirmaciones es cierta acerca de la integridad referencial en una base de datos relacional?
+
+- [ ] a) La integridad referencial garantiza que cada registro en una tabla tenga un valor único en su clave primaria.
+- [ ] b) La integridad referencial asegura que los valores en una tabla sean válidos en referencia a otra tabla.
+- [ ] c) La integridad referencial solo se aplica a las tablas que tienen una clave foránea.
+- [ ] d) La integridad referencial no es necesaria en una base de datos relacional.
+- [ ] e) Todas las opciones anteriores son verdaderas.
+- [ ] f) Algunas de las opciones anteriores son verdaderas.
+- [ ] g) Ninguna de las opciones anteriores es verdadera.
+
+<details><summary>👀 Respuesta</summary>
+
+- Sabemos que algunas no es
+
+</details>
+
+---
+
+Ya me canse de escribir
+
+![WhatsApp Image 2024-02-09 at 14 50 14](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/efe8f812-9826-4525-a2cf-2f59cd0054b4)
+![WhatsApp Image 2024-02-09 at 14 50 14 (3)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/fbe76e26-5866-4b2b-91ee-f5ba8035c611)
+![WhatsApp Image 2024-02-09 at 14 50 14 (2)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/d73e2c07-1757-4a57-8c81-3240fc70e47c)
+![WhatsApp Image 2024-02-09 at 14 50 14 (1)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/dbe3da57-94ee-4fd9-adfc-255daf6cef8a)
+
+![WhatsApp Image 2024-02-09 at 14 50 15 (2)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/36af06e9-50c5-4b58-9816-4c7241325b97)
+![WhatsApp Image 2024-02-09 at 14 50 14 (14)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/fa1352ed-a85e-49b4-984f-a41a42ba9300)
+![WhatsApp Image 2024-02-09 at 14 50 14 (13)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/cdcec387-c0e9-447c-a490-1d7e090581f1)
+![WhatsApp Image 2024-02-09 at 14 50 14 (12)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/738340b7-320e-469b-ba59-3024006ed3ba)
+![WhatsApp Image 2024-02-09 at 14 50 14 (11)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/0f69779b-46ef-4c1c-a995-a4d9f870c2ab)
+![WhatsApp Image 2024-02-09 at 14 50 14 (10)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/64508d80-b09b-42cd-aa7b-da5d8b05c4f4)
+![WhatsApp Image 2024-02-09 at 14 50 14 (6)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/b41d662f-607d-4c7c-b3e2-8cda5d15b1a2)
+![WhatsApp Image 2024-02-09 at 14 50 14 (4)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/aad173fd-2dde-499f-967a-e4cb73e8dc9c)
+![WhatsApp Image 2024-02-09 at 14 50 14 (2)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/503f64e0-dc0c-432e-a1bf-178d6c0321fd)
+![WhatsApp Image 2024-02-09 at 14 50 15 (6)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/2aa849f1-0f35-4c2f-91d1-3050cd99b1ab)
+![WhatsApp Image 2024-02-09 at 14 50 15 (3)](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/fe789d3a-9605-4c3d-8ab2-1d84a685294d)
