@@ -90,3 +90,9 @@ El diseño lógico del modelo de datos de un problema produce como resultado un 
 - **Descripción del modelo lógico a obtener** Aqui se deben definir las reglas que se aplicarán en el proceso de conversión.
 - **Criterios de rendimiento de la BD** Durante la fase de diseño conceptual, se consideraron los requerimientos del usuario. No obstante, hay otro tipo de necesidades que no se pueden definir sobre el modelo conceptual. Estas necesidades tienen que ver con los requerimientos, en general, no funcionales del problema., con por ejemplo la performance de la BD.
 - **Información de carga de la BD** Este concepto aparece, en cierta forma, ligado al concepto anterior. Cuando se genera el esquema lógico, el analista debe observar cada entidad e interrelación definida, y ver la probable evolución de la información contenida en esas estructuras.
+
+### Deciciones sobre el diseño lógico
+
+Basicamente no podemos usar ni gerarquias ni atributos compuestos, entonces los tenemos que 'Transformar'
+
+### Atributos derivados
