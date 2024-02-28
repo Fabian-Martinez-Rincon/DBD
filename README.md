@@ -23,7 +23,7 @@
 
 **modelo de datos**
 
-Un modelo de datos es un conjunto de herramientas conceptuales que permiten describir la información que es necesario administrar para un IS( Sistema de información), las relaciones existentes entre estos datos, la semántica asociada y las restricciones de consistencia.
+> Un **modelo de datos** es un conjunto de herramientas conceptuales que permiten describir la información que es necesario administrar para un IS( Sistema de información), las relaciones existentes entre estos datos, la semántica asociada y las restricciones de consistencia.
 
 - **Modelado conceptual**: Es desarrollado durante la etapa de adquisición de conocimiento del problema; el analista se independiza del tipo de SGBD a utilizar y, por consiguiente, del producto de mercado. Asi, el modelo conceptual se desarrolla independientemente de su implementación final.
 - **Modelo logico:** El analista debe determinar el tipo de SGBD, debido a que las deciciones que debe tomar dependen de esa elección
@@ -46,13 +46,13 @@ Un modelo de datos es un conjunto de herramientas conceptuales que permiten desc
 
 Representa un elemento u objeto del mundo real con identidad, es decir, se diferencia unívocamente de cualquier otro objeto o cosa, incluso siendo del mismo tipo. 
 
-Un **conjunto de entidades** es una representación que, a partir de las caracteristicas propias de cada entidad, con propiedades comunes, se resume en un núcleo.
+> Un **conjunto de entidades** es una representación que, a partir de las caracteristicas propias de cada entidad, con propiedades comunes, se resume en un núcleo.
 
 #### Relaciones
 
 Representan agregaciones entre dos o más entidades. Describen las dependencias o asociaciones entre dichas entidades.
 
-Un **conjunto de relaciones** es una representación que, a partir de las características propias de cada relación existente entre dos entidades, las resume en un núcleo.
+> Un **conjunto de relaciones** es una representación que, a partir de las características propias de cada relación existente entre dos entidades, las resume en un núcleo.
 
 #### Atributos
 
@@ -96,3 +96,16 @@ El diseño lógico del modelo de datos de un problema produce como resultado un 
 Basicamente no podemos usar ni gerarquias ni atributos compuestos, entonces los tenemos que 'Transformar'
 
 ### Atributos derivados
+
+Un atributo es derivado si contiene información que puede obtenerse de otra forma desde el modelo. Es importante detectar dichos atributos, y en el diseño lógico se debe tomar las decisiones respecto de dejarlos o no.
+
+- **Ventaja**: Disponibilidad de la información
+- **Desventaja**: Necesita ser recalculado cada vez que se modifica la información que contiene. Asim cada vez que un alumno aprueba una materia, es necesario modificar el atributo cantidad de materias aprobadas por ejemplo.
+
+### Ciclos de Relaciones
+
+Se deben identificar relaciones que generan repetición innecesario de información.
+
+### Atributos Polivalentes
+
+> Un modelo está en **Primera Forma Normal (1FN)** si todos los atributos de entidades o relaciones son atributos simples.
