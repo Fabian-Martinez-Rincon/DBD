@@ -149,3 +149,15 @@ La cobertura de la jerarquía es la que determina la solución viable en cada ca
 
 > [!IMPORTANT]
 > Despues tengo que separar bien que se usa en cada caso, porque todas no aplican para la misma cobertura
+
+<img src= 'https://i.gifer.com/origin/8c/8cd3f1898255c045143e1da97fbabf10_w200.gif' height="20" width="100%">
+
+## Capitulo 12 Modelado físico (relacional)
+
+Para pasar del logico al conceptual, eliminamos varias cosas como por ejemplo los atributos compuestos o las jerarquias, en este caso vamos a tener que eliminar los identificadores externos.
+
+
+El primer paso en la conversión del esquema lógico hacia el esquema físico consiste en la eliminación de los identificadores externos. Cada una de las entidades que conforman el esquema lógico debe poseer sus identificadores definidos de forma interna. Para lograr esto, se deberán incorporar, dentro de la entidad que contenga identificadores externos, aquellos atributos que permitan la definición del identificador de forma interna a la entidad.
+
+### Selección de claves: primaria, candidata y secundaria
+
