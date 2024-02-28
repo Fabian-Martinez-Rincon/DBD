@@ -61,7 +61,7 @@ Representa una propiedad básica de una entidad o relación. Es el equivalente a
 ### Componentes adicionales del modelo conceptual
 
 - **Jerarquías de generalización**
-- **Subconjuntos**: es igual que una gerarquia pero no es necesario indicar la covertura
+- **Subconjuntos**: es igual que una gerarquia pero no es necesario indicar la cobertura
 - **Atributos Compuestos** Es un atributo generado a partir de varios atributos simples
 - **Identificadores** Es un atributo o conjunto de atributos que permite reconocer o distinguir a una entidad de manera univoca dentro del conjunto de entidades
     - **Simples o compuestos** El identificador es simple si esta conformado por un solo atributo y compuesto si esta conformado por varios atributos
@@ -135,3 +135,17 @@ Tenemos que eliminar las gerarquias. Tenemos 3 opciones posibles
 
 **Opción 1**
 
+Eliminar las especializaciones (subentidades o entidades hijas), dejando solo la generalización (entidad padre), la cual incorpora todos los atributos de sus hijos. Cada uno de estos atributos deberá er opcional (no abligatorio).
+
+**Opción 2**
+
+Eliminar la entidad generalización (padre), dejando solo las especificaciones. Con esta solución, los atributos del padre deberá incluirse en cada uno de los hijos.
+
+**Opción 3**
+
+Dejar todas las entidades de la jerarquia, convirtiéndola en relaciones uno a uno entre el padre y cada uno de los hijos. Esta solución permite que las entidades que conforman la jerarquía mantengan su atributos originales, generando la relación explicita ES_UN entre padre e hijo.
+
+La cobertura de la jerarquía es la que determina la solución viable en cada caso.
+
+> [!IMPORTANT]
+> Despues tengo que separar bien que se usa en cada caso, porque todas no aplican para la misma cobertura
