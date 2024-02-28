@@ -109,3 +109,29 @@ Se deben identificar relaciones que generan repetición innecesario de informaci
 ### Atributos Polivalentes
 
 > Un modelo está en **Primera Forma Normal (1FN)** si todos los atributos de entidades o relaciones son atributos simples.
+
+La solución consiste en quitar el atributo polivalente de la entidad, generando otra entidad. Esta relacion sera de muchos a muchos.
+- (1,n) Relación (0,n)
+
+### Atributos compuestos
+
+Para eliminarlas tenemos tres opciones
+
+**Opción 1**
+
+Generar un unico atributo que se convierta en la concatenación de todos los atributos simples que contiene el atributo compuesto. Lo malo de esto es que perdemos la identidad de cada atributo simple.
+
+**Opción 2**
+
+Definir todos los atributos simples sin definir un atributo compuesto que los resuma. La cantidad de atributos aumenta, pero esta solución permite al usuario definir cada uno de los datos en forma independiente. Esta solución es, en general, la más indicada
+
+**Opción 3**
+
+Consiste en generar una nueva entidad, la que representa el atributo compuesto, conformada por cada uno de los atributos simples que contiene. Esta nueva entidad debe estar relacionada con la entidad la cual pertenecia el atributo compuesto. Esta solución capta mejor la esencia del atributo compuesto, pero es una opción más compleja.
+
+### Jerarquías
+
+Tenemos que eliminar las gerarquias. Tenemos 3 opciones posibles
+
+**Opción 1**
+
