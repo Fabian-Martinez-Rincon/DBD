@@ -82,3 +82,11 @@ Representa una propiedad básica de una entidad o relación. Es el equivalente a
 
 ## Capitulo 11 Modelado entidad relación lógico
 
+### Características del diseño lógico
+
+El diseño lógico del modelo de datos de un problema produce como resultado un esquema lógico de dicho problema, en función de cuatro entradas.
+
+- **Esquema conceptual** Es el resultado tangible de la etapa inmediate anterior. El esquema conceptual representa la solución, a juicio del analista, respecto del problema original. El esquema lógico a obtener debe representar la mismo información disponible en el esquema conceptual.
+- **Descripción del modelo lógico a obtener** Aqui se deben definir las reglas que se aplicarán en el proceso de conversión.
+- **Criterios de rendimiento de la BD** Durante la fase de diseño conceptual, se consideraron los requerimientos del usuario. No obstante, hay otro tipo de necesidades que no se pueden definir sobre el modelo conceptual. Estas necesidades tienen que ver con los requerimientos, en general, no funcionales del problema., con por ejemplo la performance de la BD.
+- **Información de carga de la BD** Este concepto aparece, en cierta forma, ligado al concepto anterior. Cuando se genera el esquema lógico, el analista debe observar cada entidad e interrelación definida, y ver la probable evolución de la información contenida en esas estructuras.
