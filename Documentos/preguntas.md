@@ -21,7 +21,13 @@
 
 ---
 
+### Sacado del libro
+
+![image](https://github.com/Fabian-Martinez-Rincon/Fabian-Martinez-Rincon/assets/55964635/1db36f21-78a1-4acb-ba6b-36e39ac6d926)
+
 Las funciones de agregación en una consulta
+
+
 
 - [ ] a) Pueden ir en el SELECT
 - [ ] b) Pueden ir en el WHERE
@@ -35,6 +41,8 @@ Las funciones de agregación en una consulta
 <details><summary>👀 Respuesta</summary>
 
 - Falta responder
+
+En el SELECT si, en el WHERE no
 
 </details>
 

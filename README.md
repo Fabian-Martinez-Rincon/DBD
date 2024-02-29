@@ -186,5 +186,13 @@ Basicamente tenemos que borrar todas las anomalias posibles como
 - Anomalías de borrado
 - Anomalías de modificación
 
-### Anomalías de inserción
+No entendi muy bien los casos pero bueno
+
+### Dependencias funcionales
+
+> Una **Dependencia Funcional (DF)** representa una restricción entre atributos de una tabla de la BD. Se dice que un atributo Y depende funcionalmente de un atributo X (denotado por la expresión X -> Y), cuando para un valor dado de X siempre se encuentra el mismo valor para el atributo Y. se debe notar que X e Y pueden representar, además, un conjunto de atributos.
+
+Más formalmente, dadas dos tuplas cualesquiera de una tabla t1 y t2, si t1[X] = t2[X], entonces t1[Y] = t2[Y].
+
+Generalizando, el atributo X determina al atributo Y.
 
