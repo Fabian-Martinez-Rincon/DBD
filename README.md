@@ -161,3 +161,30 @@ El primer paso en la conversión del esquema lógico hacia el esquema físico co
 
 ### Selección de claves: primaria, candidata y secundaria
 
+### Concepto de superclave
+
+Una superclave es un conjunto de uno o más atributos que permiten identificar de forma únivoca una entidad de un conjunto de entidades.
+
+> Faltan Cosas
+
+<img src= 'https://i.gifer.com/origin/8c/8cd3f1898255c045143e1da97fbabf10_w200.gif' height="20" width="100%">
+
+## Capitulo 13 Normalización
+
+> La **normalización** es un mecanismo que permite que un conjunto de tablas (que integran una BD) cumpla una serie de propiedades deseables. Estas propiedades consisten en evitar:
+
+- Redundacia de datos.
+- Anomalías de actualización.
+- Pérdida de integridad de datos.
+
+**Ventaja**
+
+Consiste en disponer de tablas, cuyos datos serán para el usuario fácil acceso y sencillo mantenimiento.
+
+Basicamente tenemos que borrar todas las anomalias posibles como
+- Anomalías de inserción
+- Anomalías de borrado
+- Anomalías de modificación
+
+### Anomalías de inserción
+
