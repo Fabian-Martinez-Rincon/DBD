@@ -3,15 +3,16 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Nomadiix/DBD)
 [![GitHub stars](https://img.shields.io/github/stars/Nomadiix/DBD)](https://github.com/FabianMartinez1234567/DBD/stargazers/)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/Nomadiix/DBD)](https://github.com/Nomadiix/DBD)
- </div>
+
 
 <h1 align="center"> 💿 Diseño de Base de Datos </h1>
 
 ---
 
 
-<a title="" href="https://youtu.be/28ZnfoU7P18?si=3vqHjY3mEd6Tt4mi"><img src="/Documentos/image.png" alt="" /></a>
+<a title="" href="https://youtu.be/28ZnfoU7P18?si=3vqHjY3mEd6Tt4mi"><img src="/Documentos/image.png"  width="550px"  /></a>
 
+ </div>
 
 
 <img src= 'https://i.gifer.com/origin/8c/8cd3f1898255c045143e1da97fbabf10_w200.gif' height="20" width="100%">
